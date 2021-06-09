@@ -1,0 +1,25 @@
+canvas {
+    border:1px solid black;
+  margin-top: 160px;
+}
+
+h3{
+  animation-name: eg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  color: black;
+  text-align: center;
+}
+
+@keyframes eg{
+  from {box-shadow: 1px 1px 15px rgb(248, 15, 112);}
+  to {box-shadow: 1px 1px 15px  rgb(116, 38, 241);}
+}
+
+body{
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, rgb(4, 0, 255) , rgb(245, 53, 181));;
+}
